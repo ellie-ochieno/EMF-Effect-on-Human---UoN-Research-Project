@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-graph{
+  width: 80%;
+  margin: 2% 3%;
+  padding: 1% 2%;
+}
+ #graph_type{
+     width: 20% !important;
+     background-color: orange;
+     opacity: .5;
+     color: #000;
+     border: 2px solid #777;
+ }
+ label a.pg_reload{
+    font-style: italic;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 2% 0%;
+    text-decoration: underline;
+ }
+ .graph_reload_btn{
+    width: auto;
+    min-width: 14%;
+    padding: .5% 2%;
+    background-color: #ddd;
+    border: 1px solid #777;
+    border-radius: 5px;
+ }
+ .graph_reload_btn:hover{
+    background-color: #ccc;
+ }
+ select{
+  background-color: rgb(184, 184, 148) !important;
+  opacity: none !important;
+ }
+ select:hover{
+  background-color: rgb(184, 184, 148, .4) !important;
+  border: 1px solid #444;
+ }
+.tbl_display{
+  width: 80%;
+  margin: 2% 3% 2% 6%;
+}
+.tbl_display td.1st_column{
+     background-color: #ccc;
+}
+button.toggle_table{
+  margin-left: 5% !important;
+}
+button.toggle_table{
+  background-color: #405580 !important;
+  color: #fff;
+}
+button.toggle_table:hover{
+  color: #fff !important;
+  opacity: .7;
+}
+select#graph_type, select#toggle_graph{
+   height: 36px;
+   width: 20%;
+}
+.intro-section{
+  text-align: center;
+}
+.intro-section h3{
+  color: #42428a;
+  font-weight: lighter !important;
+  text-decoration: underline;
+}
+span.dot{
+  background-color: red;
+}
+span.dot:hover{
+  background-color: #ccc;
+}
+.img_preview{
+  width: 100%;
+  padding: 2% 8% 1% 2%;
+}
+.img_preview img{
+  padding: 1% 2% 1% 1%;
+}
+.high_e_field_lctns{
+    width: auto;
+    height: auto;
+    margin: 1% 4%;
+    padding: 2% 4%;
+    background-color: #f2f2f2;
+    border-left: 1px solid #666;
+    border-radius: 8px 0px 8px 0px;
+}
+.high_e_field_lctns:hover{
+  border-left: 4px solid #666;
+}
+.pdf_embed{
+  width: 100%;
+  margin: 2% 4%;
+}
+label.pdf_embed_display,
+label.pdf_embed_display_hide{
+  width: 80%;
+  font-size: 18px;
+  margin: 4% 4% 4% 8%;
+  padding: .4% 4%;
+  background-color: #f2f2f2 !important;
+  cursor: pointer;
+  color: #6666ff;
+  border-radius: 20px;
+  text-align: center;
+}
+label.pdf_charts_display{
+  width: 30%;
+  font-size: 18px;
+  margin: 4% 4%;
+  padding: .4% 4%;
+  background-color: #f2f2f2 !important;
+  cursor: pointer;
+  color: #6666ff;
+  border-radius: 20px;
+  text-align: center;
+}
+label.pdf_embed_display:hover,
+label.pdf_charts_display:hover,
+label.pdf_embed_display_hide:hover{
+  text-decoration: underline;
+  background-color: #ddd !important;
+}
+#pdf_embed,
+#pdf_embed_display_hide{
+  display: none;
+}
+.google_map_main_sctn {
+    width: 72%;
+    height: 50%;
+    margin: 1% 2%;
+    float: left;
+    border: 1px solid #ccc;
+  }
+.google_map_info_sctn{
+    width: 24%;
+    height: auto;
+    margin: 1% auto;
+    padding: 2% 4%;
+    float: left;
+    background-color: #ccc;
+    border-left: 1px solid #666;
+    border-radius: 8px 0px 8px 0px;
+  }
+  .google_map_info_sctn:hover{
+    border-left: 4px solid #666;
+  }
+  .title_info{
+    border-left: 8px solid grey;
+    margin: 2% 4% .4% 6%;
+    padding: .4% 1%;
+  }
+  .title_info:hover{
+    border-left: 8px solid #ccc;
+  }
+
+    /* Field data info display files------------------------ */
+
+    .navbar .dropdown-menu a.fld_data1{
+        border: 1px solid grey;
+        color: red !important;
+        background-color: #064c67;
+        /* border-radius: 6px; */
+    }
+    #pdf_embed_display_hide,
+    #pdf_embed{
+      display: none;
+    }
+    label#drop {
+        color: #405580;
+        padding: 8% 4%;
+        font-size: 98.4%;
+        width: : 200px;
+        height: : 60px;
+    }
+     label#drop:hover{
+       /* border-bottom: 1px solid #405580; */
+     }
+    #drop-down {
+        position: relative;
+        display: inline-block;
+    }
+    #dropdown-menu {
+        display: none;
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 96.25%;
+        background-color: #f2f2f2;
+        width: auto;
+        margin-right:-50px;
+        padding: 1% 2%;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    #dropdown-menu ul.fld_lctn li, #dropdown-menu label{
+        color: #405580 !important;
+        font-size: 92.25%;
+        padding: 12px 10px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #d3d3d3;
+    }
+    #dropdown-menu ul.fld_lctn li:hover,
+    #dropdown-menu label:hover {
+      background-color: darkgrey;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    #drop-down:hover #dropdown-menu {
+      display: block
+    }
+    .navbar-fld-lctn{
+      height: auto;
+      padding: 2% 1%;
+    }
+    li.fld_lctn_item{
+      color: #405580 !important;
+      padding: 1.8% 1% !important;
+      margin: 2% 3%;
+      background-color: lightgrey;
+      border-bottom: 1px solid #999;
+      border-radius: 5px 5px 5px 5px;
+    }
+    .navbar-fld-lctn a.dropdown-toggle{
+      color: #405580 !important;
+      padding: 4.5% 2%;
+      margin: 2% 6% 2% .2%;
+      background-color: lightgrey;
+      border-bottom: 1px solid #999;
+      border-radius: 5px 5px 5px 5px;
+      overflow: hidden;
+    }
+    li.fld_lctn_item:hover,
+    .navbar-fld-lctn a.dropdown-toggle:hover{
+      background-color: darkgrey;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    li.fld_lctn_item:active,
+    .navbar-fld-lctn a.dropdown-toggle:active{
+      color: #fff;
+    }
+    #field_data2_sctn{
+        display: none;
+    }
+    /* Field data info display files------------------------ */
+
+@media (max-width: 768px) {
+  .pdf_embed{
+    height: 200px;
+  }
+  .google_map_main_sctn{
+      width: 100%;
+      margin: 1% auto;
+      float: none;
+  }
+  .google_map_info_sctn{
+      width: 100%;
+      float: none;
+  }
+  .img_preview{
+    width: 100%;
+    margin: 1% auto;
+    overflow-x: scroll;
+  }
+  label.pdf_charts_display{
+    width: 80%;
+    font-size: 16px;
+    margin: 4% 1%;
+    padding: .4% 4%;
+  }
+}
+@media (max-width: 576px) {
+  .pdf_embed{
+    height: 200px;
+  }
+  .google_map_main_sctn{
+      width: 100%;
+      margin: 2% auto;
+      float: none !important;
+  }
+  .google_map_info_sctn{
+      width: 100% ;
+      float: none !important;
+      margin: 0 !important;
+  }
+  .img_preview{
+    width: 100%;
+    margin: 1% auto;
+    overflow-x: scroll;
+  }
+  li.fld_lctn_item{
+    padding: 4% 3% !important;
+    margin: 4% 3%;
+  }
+  .navbar-fld-lctn a.dropdown-toggle{
+    padding: 4% 2%;
+    margin: 2% 4% 2% .2%;
+    clear: right;
+  }
+  label.pdf_charts_display{
+    width: 90%;
+    font-size: 16px;
+    margin: 4% 1%;
+    padding: .4% 4%;
+  }
+}
