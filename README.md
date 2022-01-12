@@ -1,4 +1,4 @@
-# EMF-Effect-on-Human---UoN-Research-Project
+# EMF-Effect-on-Human Health---UoN-Research-Project
 
 Available at: https://www.emf-health.uon-powernet.com/
 
