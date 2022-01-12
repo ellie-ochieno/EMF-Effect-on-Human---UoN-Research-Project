@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container-graph{
+  width: 80%;
+  margin: 2% 3%;
+  padding: 1% 2%;
+}
+ #graph_type{
+     width: 20% !important;
+     background-color: orange;
+     opacity: .5;
+     color: #000;
+     border: 2px solid #777;
+ }
+ label a.pg_reload{
+    font-style: italic;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 2% 0%;
+    text-decoration: underline;
+ }
+ .graph_reload_btn{
+    width: auto;
+    min-width: 14%;
+    padding: .5% 2%;
+    background-color: #ddd;
+    border: 1px solid #777;
+    border-radius: 5px;
+ }
+ .graph_reload_btn:hover{
+    background-color: #ccc;
+ }
+ select{
+  background-color: rgb(184, 184, 148) !important;
+  opacity: none !important;
+ }
+ select:hover{
+  background-color: rgb(184, 184, 148, .4) !important;
+  border: 1px solid #444;
+ }
+.tbl_display{
+  width: 80%;
+  margin: 2% 3% 2% 6%;
+}
+.tbl_display td.1st_column{
+     background-color: #ccc;
+}
+button.toggle_table{
+  margin-left: 5% !important;
+}
+button.toggle_table{
+  background-color: #405580 !important;
+  color: #fff;
+}
+button.toggle_table:hover{
+  color: #fff !important;
+  opacity: .7;
+}
+select#graph_type, select#toggle_graph{
+   height: 36px;
+   width: 20%;
+}
+.intro-section{
+  text-align: center;
+}
+.intro-section h2{
+  color: #42428a;
+  font-weight: lighter !important;
+}
+span.dot{
+  background-color: red;
+}
+span.dot:hover{
+  background-color: #ccc;
+}
+.img_preview{
+  width: 100%;
+  margin: 1% 4%;
+}
+.pdf_embed{
+  width: 100%;
+  margin: 2% 4%;
+}
+label.pdf_embed_display,
+label.pdf_embed_display_hide{
+  width: 80%;
+  font-size: 18px;
+  margin: 8%;
+  padding: .4% 4%;
+  background-color: #f2f2f2 !important;
+  cursor: pointer;
+  color: #6666ff;
+  border-radius: 20px;
+  text-align: center;
+}
+label.pdf_embed_display:hover,
+label.pdf_embed_display_hide:hover{
+  text-decoration: underline;
+  background-color: #ddd !important;
+}
+#pdf_embed,
+#pdf_embed_display_hide{
+  display: none;
+}
+@media (max-width: 768px) {
+  .img_preview{
+    overflow-x: scroll;
+  }
+}
+@media (max-width: 576px) {
+  .img_preview{
+    overflow-x: scroll;
+  }
+}
